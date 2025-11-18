@@ -68,7 +68,7 @@ const HeadstoneCard = ({
   );
 };
 
-const HeadstoneCards = () => {
+const HeadstoneCardeds = () => {
   return (
     <div className="min-h-screen bg-gray-50 p-8">
       <div className="max-w-7xl mx-auto">
@@ -133,15 +133,15 @@ const HeadstoneCards = () => {
       </div>
       <div className="py-4 text-center">
         <p className="text-gray-800 font-semibold mb-9">
-          Click to see more size & design options
+          Click to see more design options
         </p>
         <button className="bg-black text-white py-4 px-10 cursor-pointer font-medium rounded-md transition-all duration-500 transform hover:scale-105 hover:bg-gray-900">
           {" "}
-          Black Granite Products - View More
+          White Marble Products - View More
         </button>
       </div>
     </div>
   );
 };
 
-export default HeadstoneCards;
+export default HeadstoneCardeds;

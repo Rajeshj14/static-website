@@ -68,20 +68,13 @@ const HeadstoneCard = ({
   );
 };
 
-const HeadstoneCards = () => {
+const HeadstoneCarded = () => {
   return (
-    <div className="min-h-screen bg-gray-50 p-8">
+    <div className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto">
-        {/* Header Section */}
-        <div className="text-white py-4 px-6 rounded-t-lg mb-0">
-          <h1 className="text-2xl text-center text-black pt-2 pb-2">
-            Order & Design a headstone online with our easy-to-use design tool.
-          </h1>
-        </div>
-
         <div className="bg-blue-500 text-white py-3 px-6 mb-0">
           <h1 className="text-2xl font-semibold text-center">
-            Gray Granite Products
+            Laser Series - Black Granite
           </h1>
         </div>
 
@@ -113,35 +106,26 @@ const HeadstoneCards = () => {
           />
 
           <HeadstoneCard
-            title="Flat Headstone Marker with One Symbol - (20 x 10 x 3 in)"
-            price="329.00"
-            originalPrice="339.99"
+            title="Black Granite - Flat Headstone Marker - Symbol & Photo - (24 x 12 x 4 in) -Laser Series"
+            price="899.00"
+            originalPrice="799.99"
             hasOffer={false}
             image1="/gray/margarot.jpeg"
             image2="/gray/william.webp"
           />
 
           <HeadstoneCard
-            title="Flat Headstone Marker with One Symbol - (20 x 10 x 3 in)"
-            price="329.00"
-            originalPrice="339.99"
+            title="Black Granite - Flat Headstone Marker - Full Scene - (24 x 12 x 4 in) - Laser Series"
+            price="$999.00"
+            originalPrice="$929.00"
             hasOffer={true}
             image1="/gray/mitchell.jpg"
             image2="/gray/john.jpeg"
           />
         </div>
       </div>
-      <div className="py-4 text-center">
-        <p className="text-gray-800 font-semibold mb-9">
-          Click to see more size & design options
-        </p>
-        <button className="bg-black text-white py-4 px-10 cursor-pointer font-medium rounded-md transition-all duration-500 transform hover:scale-105 hover:bg-gray-900">
-          {" "}
-          Black Granite Products - View More
-        </button>
-      </div>
     </div>
   );
 };
 
-export default HeadstoneCards;
+export default HeadstoneCarded;

@@ -3,6 +3,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --border-left: 5px;
+  --border-left-bottom: 5px;
   
 }
 

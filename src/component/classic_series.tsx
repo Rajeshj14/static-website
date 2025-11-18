@@ -68,20 +68,13 @@ const HeadstoneCard = ({
   );
 };
 
-const HeadstoneCards = () => {
+const HeadstoneCarde = () => {
   return (
-    <div className="min-h-screen bg-gray-50 p-8">
+    <div className="min-h-screen bg-gray-50">
       <div className="max-w-7xl mx-auto">
-        {/* Header Section */}
-        <div className="text-white py-4 px-6 rounded-t-lg mb-0">
-          <h1 className="text-2xl text-center text-black pt-2 pb-2">
-            Order & Design a headstone online with our easy-to-use design tool.
-          </h1>
-        </div>
-
         <div className="bg-blue-500 text-white py-3 px-6 mb-0">
           <h1 className="text-2xl font-semibold text-center">
-            Gray Granite Products
+           Classic Series - Black Granite
           </h1>
         </div>
 
@@ -96,35 +89,36 @@ const HeadstoneCards = () => {
         {/* Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           <HeadstoneCard
-            title="Flat Headstone Marker with Symbol - (16 x 8 x 3 in)"
-            price="197.99"
+            title="Black Granite - Flat Headstone Marker with Symbol - (16 x 8 x 3 in)"
+            price="299.00"
+            originalPrice="279.00"
             hasOffer={false}
             image1="/gray/flat.webp"
             image2="/gray/flat-heads.webp"
           />
 
           <HeadstoneCard
-            title="Flat Headstone Marker with One Symbol - (20 x 10 x 3 in)"
-            price="329.00"
-            originalPrice="339.99"
+            title="Black Granite - Flat Headstone Marker with Two Symbols - (24 x 12 x 4 in)"
+            price="699.99"
+            originalPrice="639.00"
             hasOffer={true}
             image1="/gray/flat-headstone.jpeg"
             image2="/gray/headstone.jpeg"
           />
 
           <HeadstoneCard
-            title="Flat Headstone Marker with One Symbol - (20 x 10 x 3 in)"
-            price="329.00"
-            originalPrice="339.99"
+            title="Black Granite - Companion Flat Headstone Marker with Symbol - (24 x 12 x 4 in)"
+            price="669.99"
+            originalPrice="699.99"
             hasOffer={false}
             image1="/gray/margarot.jpeg"
             image2="/gray/william.webp"
           />
 
           <HeadstoneCard
-            title="Flat Headstone Marker with One Symbol - (20 x 10 x 3 in)"
-            price="329.00"
-            originalPrice="339.99"
+            title="Black Granite - Flat Headstone Marker with Border - (24 x 12 x 4 in)"
+            price="679.99"
+            originalPrice="649.00"
             hasOffer={true}
             image1="/gray/mitchell.jpg"
             image2="/gray/john.jpeg"
@@ -144,4 +138,4 @@ const HeadstoneCards = () => {
   );
 };
 
-export default HeadstoneCards;
+export default HeadstoneCarde;
